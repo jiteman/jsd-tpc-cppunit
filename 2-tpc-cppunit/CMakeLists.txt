@@ -11,7 +11,7 @@ set( JSD_THIS_PROJECT_HEADER_PATH ${JSD_SSC_SOURCE_PATH}/libreoffice-cppunit/inc
 set( JSD_THIS_PROJECT_SOURCE_PATH ${JSD_SSC_SOURCE_PATH}/libreoffice-cppunit/src )
 set( JSD_THIS_PROJECT_ADHOCS_PATH ${JSD_SSC_SOURCE_PATH}/jsd_adhocs )
 
-list( APPEND ${PROJECT_NAME}_TEST_SOURCE_DIRS_VAR ${JSD_SSC_SOURCE_PATH}/libreoffice-cppunit/examples/cppunittest )
+set( ${PROJECT_NAME}_TEST_SOURCE_DIRS_VAR ${JSD_SSC_SOURCE_PATH}/libreoffice-cppunit/examples/cppunittest )
 
 ## include dependencies
 set( ${PROJECT_NAME}_DEPENDENCY_DIRS_VAR
